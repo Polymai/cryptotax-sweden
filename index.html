@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CryptoTax Sweden prepares Binance crypto tax reports, K4 summaries, opening balances, and audit-ready explanations for Swedish taxpayers."
+    />
+    <title>CryptoTax Sweden</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div id="app" class="app-root">
+      <main class="fallback-shell">
+        <section class="fallback-hero">
+          <div>
+            <p class="eyebrow">CryptoTax Sweden</p>
+            <h1>Swedish crypto tax reporting for Binance activity</h1>
+            <p>
+              Import a tax year, recover missing cost basis, and prepare K4,
+              income, estimate, and audit notes from one workspace.
+            </p>
+          </div>
+          <img src="./assets/hero.png" alt="Crypto tax workflow workspace" />
+        </section>
+      </main>
+    </div>
+    <script src="./data/supabaseConfig.js"></script>
+    <script src="./data/stripeConfig.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
