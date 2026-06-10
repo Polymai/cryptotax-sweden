@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CryptoTax Sweden">
+  <rect width="64" height="64" rx="14" fill="#f7f4ec"/>
+  <path d="M14 18h36v28a6 6 0 0 1-6 6H20a6 6 0 0 1-6-6V18Z" fill="#145b7d"/>
+  <path d="M14 27h36v8H14z" fill="#f2c94c"/>
+  <path d="M27 18h8v34h-8z" fill="#f2c94c"/>
+  <circle cx="39" cy="40" r="9" fill="#f7f4ec"/>
+  <path d="M35 40h8M39 36v8" stroke="#145b7d" stroke-width="3" stroke-linecap="round"/>
+</svg>
